@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 // Cấu hình MongoDB
-const MONGO_URI = 'mongodb+srv://koconikdau111:<db_password>@cluster0.srhaqqp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = '("mongodb+srv://websavetimebb5:3Uk8KekziFdXv-Z@cluster0.srhaqqp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Kết nối MongoDB thành công!'))
   .catch(err => console.error('Lỗi kết nối MongoDB:', err));
