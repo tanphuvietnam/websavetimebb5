@@ -55,5 +55,5 @@ app.use((req, res) => {
   res.status(404).json({ error: 'Endpoint không hợp lệ.' });
 });
 
-// Export server cho Vercel
+
 module.exports = app;
